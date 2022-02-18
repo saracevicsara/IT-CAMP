@@ -1,0 +1,19 @@
+.kartica{
+    border: solid beige 4px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+.kartica img{
+    height: 50px;
+    width: 50px;
+}
+.kartica p{
+    font-size: 15px;
+    color: gray;
+    font-family: Arial Narrow;
+
+}
+h1{
+    font-size: 35px;
+}
