@@ -1,0 +1,58 @@
+
+.background{
+    background-color: black;
+}
+.divclass{
+width: 400px;
+height: 400px;
+background-color: #111618;
+border: solid 0.5px white;
+margin: 600px;
+border-radius: 35px;
+}
+
+.firsticon{
+width: 40px;
+height: 40px;
+border: 1px solid black;
+border-radius: 50%;
+margin: 15px  15px;
+}
+
+.heading{
+    font-size: 25px;
+    color: white;
+    margin-left: 18px;
+}
+
+.img{
+width: 300px;
+height: 150px;
+margin: 0px 50px;
+border-radius: 25px;
+}
+
+.icons{
+list-style: none;
+
+}
+.icons li{
+    display: inline-block;
+}
+
+.icon1{
+    margin: 15px;
+    color: gray;
+}
+
+.icon2{
+    margin: 10px;
+    color: black;
+     font-size: 20px;
+}
+ 
+.icon3{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+}

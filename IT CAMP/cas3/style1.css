@@ -1,0 +1,38 @@
+.kartica{
+    border: 1px solid gray;
+    width: 400px;
+    height: 350px;
+}
+
+.paragraf{
+    color:gray;
+    text-align: center;
+    padding-top: 30px;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+}
+
+.paragraf2{
+    text-align: center;
+    color: gray;
+
+}
+.link{
+    color: blueviolet;
+  margin: 155px;
+  font-weight: 600;
+}
+.x{
+    width: 20px;
+    height: 20px;
+    margin: 40px auto;
+
+}
+.instagram{
+    color: violet;
+
+    font-size: 25px;
+
+}
