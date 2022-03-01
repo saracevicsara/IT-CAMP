@@ -1,0 +1,60 @@
+/* .main{
+    
+    display: inline-block;
+    position: absolute;
+}
+.prvi{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    top: 70px;
+    left: 70px;
+}
+.drugi{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    top: 190px;
+    left: 240px;
+}
+.treci{
+    width: 700px;
+    height: 150px;
+    background-color: green;
+    top: 400px;
+    left:70px ;
+}
+.cetvrti{
+    width: 150px;
+    height: 700px;
+    background-color: yellow;
+    top: 150px;
+    left: 700px;
+} */
+
+.glavni{
+    width: 700px;
+    height: 200px;
+    position: relative;
+    border:solid 1px black;
+    background-color: aqua;
+}
+.prvi{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: solid 1px black;
+    
+}
+.drugi{
+    width: 70px;
+    height: 20px;
+    background-color: yellow;
+    border: solid 1px black;
+}
+.treci{
+    width: 700px;
+    height: 20px;
+    background-color: blueviolet;
+    border: solid 1px black ;
+}
