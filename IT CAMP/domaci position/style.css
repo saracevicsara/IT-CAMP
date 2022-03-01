@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.glavni{
+    width: 750px;
+    height: 600px;
+    border-left: solid 2px gray;
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+.okvir{
+    width: 670px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 12px;
+}
+.tekst{
+    width: 550px;
+    height: 70px;
+    display: inline-block;
+    position: absolute;
+    left: 130px;
+    bottom: 60px;
+}
