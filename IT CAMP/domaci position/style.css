@@ -5,10 +5,34 @@
 .glavni{
     width: 750px;
     height: 600px;
-    border-left: solid 2px gray;
+    border-left: solid 3px gray;
     position: relative;
     top: 150px;
     left: 400px;
+}
+.ikonice{
+    font-size: 25px;
+    color: blueviolet;
+}
+.x {
+    position: absolute;
+    top: 210px;
+    left: 389.5px;
+}
+.y{
+    position: absolute;
+    top: 365px;
+    left: 389.5px;
+}
+.z{
+    position: absolute;
+    top: 515px;
+    left: 389.5px;
+}
+.s{
+    position: absolute;
+    top: 665px;
+    left: 389.5px;
 }
 .okvir{
     width: 670px;
