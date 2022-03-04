@@ -18,21 +18,25 @@
     position: absolute;
     top: 210px;
     left: 389.5px;
+    z-index: 1;
 }
 .y{
     position: absolute;
     top: 365px;
     left: 389.5px;
+    z-index: 1;
 }
 .z{
     position: absolute;
     top: 515px;
     left: 389.5px;
+    z-index: 1;
 }
 .s{
     position: absolute;
     top: 665px;
     left: 389.5px;
+    z-index: 1;
 }
 .okvir{
     width: 670px;

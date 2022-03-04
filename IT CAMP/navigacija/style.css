@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    
+    position: relative;
+}
+.ikonica{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+img{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}
+h1{
+    display: inline-block;
+}
+.navigacija{
+   margin: 0 10px;
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+li{
+    display: inline-block;
+}
+.button{
+    text-align: left;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+    top:0;
+    border: solid 1px gray;
+}

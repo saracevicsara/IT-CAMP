@@ -27,6 +27,3 @@
 # print(bool(a))
 # a=0
 # print(bool(a))
-# a,b,c,e,d=int(input("unesite broj"))
-# sredina=(a+b+c+e+d)/5
-# print("ovo je aritmeticka sredina",sredina)
