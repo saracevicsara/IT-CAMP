@@ -56,3 +56,42 @@
 #     print("zbir i proizvod su jednaki")
 # else:
 #     print( "zbir i proizvod su razliciti")
+
+# f and f => f
+# f and t => f
+# t and f => f
+# t and t => t
+                     #logicki operatori i tjst. ili
+# f or f => f
+# f or t => t
+# t or f => t
+# t or t => t
+
+
+# a =int(input("Unesi neki broj izmedju 1 i 12 :"))
+# if a==1:
+#     print("Januar")
+# elif a==2:
+#     print("Februar")
+# elif a==3:
+#     print("Mart")
+# elif a==4:
+#     print("April")
+# elif a==5:
+#     print("Maj")
+# elif a==6:
+#     print("Jun")
+# elif a==7:
+#     print("Jul")
+# elif a==8:
+#     print("Avgust")
+# elif a==9:
+#     print("Septembar")
+# elif a==10:
+#     print("Oktobar")
+# elif a==11:
+#     print("Novembar")
+# elif a==12:
+#     print("Decembar")
+# else:
+#     print("Izlaz iz Programa")
