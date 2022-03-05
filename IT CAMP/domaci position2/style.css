@@ -38,6 +38,7 @@
 .catalog a{
     position: absolute;
     bottom: 40px;
+    text-decoration: none;
 }
 .eye{
     position: absolute;
