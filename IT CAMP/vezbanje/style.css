@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100vw;
+  height: 80px;
+  background-color: blue;
+}
+h1 {
+  font-size: 30px;
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  position: relative;
+}
+ul li {
+  display: inline-block;
+  position: absolute;
+  left: 500px;
+}
+.home,
+.about,
+.servicies,
+.contact,
+.feedback {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+}
+.home {
+  left: 500px;
+}
+.about {
+  left: 570px;
+}
+.servicies {
+  left: 640px;
+}
+.contact {
+  left: 730px;
+}
+.feedback {
+  left: 810px;
+}

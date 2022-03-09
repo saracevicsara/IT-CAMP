@@ -1,6 +1,5 @@
-# broj="sara" #ovde imamo varijablu i string
+    # broj="sara" #ovde imamo varijablu i string
 # print(broj)
-
 # broj=input("unesite zeljeni broj")
 # print(broj)
 # OTORINOLARINGOLOGIJA LOGIJA
@@ -30,14 +29,30 @@
 # a=0
 # print(bool(a))
 
+# x=int(input("unesite neki broj"))
+# y=int(input("unesite neki broj"))
+# if x<y:
+#     print("x je manje y")
+# else:
+#     print('x je vece y')
+
 #IF ELIF ELSE
 #GRADI SE NA OSNOVU TRUE I FALSE ,JER BIRAMO IZMEDJU DVA PONUDJENA ODGOVORA
-# x=int(input("unesite prirodan broj"))
-# if x%7==0:#operator za deljenje sa ostatkom jer nismo sigurni da je svaki broj deljiv sa tacno sedam ,onda ostatak uporedjujemo sa nulom
-#     print("broj je deljiv sa sedam")
-# else:
-#     print("broj  nije deljiv sa sedam")
+# 
+# a>b lepo je vreme napolju
+# a<b lose je vreme napolju
+# kontra nije lose vreme napolju
 
+
+
+# x=int(input("unesite neki broj:"))
+# y=int(input("unesite neki broj:"))
+# if x>y:
+#     print("lepo je vreme danas")
+# elif x<y:
+#     print("lose je vreme danas")
+# else:
+#     print("nije lose vreme napolju")
 # x=int(input("unesite neki broj"))
 # y=int(input("unesite neki broj"))
 # z=x+y #postavljamo zadatak
@@ -45,7 +60,6 @@
 #     print("suma je veca od 20")
 # else:
 #     print("suma je manja od 20")
-
 
 
 # x=int(input("unesite random broj"))
@@ -56,6 +70,20 @@
 #     print("zbir i proizvod su jednaki")
 # else:
 #     print( "zbir i proizvod su razliciti")
+
+# a = int(input("unesite neki broj"))
+# b = int(input("unesite neki broj"))
+# if b > a:
+#   print("b is greater than a")
+# elif a == b:
+#   print("a and b are equal")
+
+# x=int(input("unesite neki broj od 1 do 12"))
+# if x==1:
+#     print("januar")
+# elif x==2:
+#     print("februar")
+
 
 # f and f => f
 # f and t => f
@@ -95,3 +123,43 @@
 #     print("Decembar")
 # else:
 #     print("Izlaz iz Programa")
+# ....-4 -3 -2 -1 0 1 2 3 4...
+
+# x=int(input("unesite neki broj"))
+# if x>0:
+#     print("pozitivan")
+# else:
+#     print("negativan")
+
+# x=input("unesite neku rec")
+# if "s" in x:
+#     print("slovo  s  se nalazi u ovoj reci")
+# else:
+#     print("slovo s  se ne nalazi u ovoj reci")
+
+# x="informatika"
+# if "f" in x:
+#     print("slovo f se nalazi")
+# else:
+#     print("slovo f se ne nalazi")
+
+# a=int(input('vas odabir'))
+# b=int(input('unesite broj'))
+
+# if a and b ==1:
+#     print("augajsf")
+
+
+# if a or b ==1:
+#     print("augajsf")
+# if  a==1:
+#     b=int(input('unesite broj'))
+#     c=int(input('unesite broj'))
+#     a=b+c
+#     print ('zbir je', a)
+# else:
+#     b=int(input('unesite broj'))
+#     c=int(input('unesite broj'))
+#     a=b*c
+#     print ('proizvod je ', a)
+      
