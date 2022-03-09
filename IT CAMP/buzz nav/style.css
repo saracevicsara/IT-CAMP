@@ -51,7 +51,8 @@ nav ul li a {
   padding: 10px;
   text-decoration: none;
 }
-nav ul li ul {
+nav ul li ul,
+.zene {
   display: none;
   position: absolute;
   top: 20px;
@@ -65,4 +66,7 @@ nav ul li:hover ul {
 }
 nav ul li ul li a:hover {
   color: white;
+}
+.zene {
+  left: 144px;
 }
