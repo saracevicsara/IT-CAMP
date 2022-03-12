@@ -1,0 +1,38 @@
+/* * {
+  margin: 0;
+}
+.main {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  animation: anim1 2s ease;
+  position: relative;
+}
+@keyframes anim1 {
+  0% {
+    background-color: rgb(102, 72, 131);
+    position: absolute;
+    left: 0;
+  }
+  25% {
+    background-color: rgb(122, 18, 219);
+    position: absolute;
+    left: 150px;
+  }
+
+  50% {
+    background-color: blueviolet;
+    position: absolute;
+    top: 150px;
+  }
+  75% {
+    background-color: rgb(120, 70, 167);
+    position: absolute;
+    left: 0;
+  }
+  100% {
+    background-color: rgb(85, 21, 145);
+    position: absolute;
+    top: 0px;
+  }
+} */

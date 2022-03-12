@@ -143,23 +143,37 @@
 # else:
 #     print("slovo f se ne nalazi")
 
-# a=int(input('vas odabir'))
-# b=int(input('unesite broj'))
 
-# if a and b ==1:
-#     print("augajsf")
-
-
-# if a or b ==1:
-#     print("augajsf")
-# if  a==1:
-#     b=int(input('unesite broj'))
-#     c=int(input('unesite broj'))
-#     a=b+c
-#     print ('zbir je', a)
+# ime = input("Kako se zove tip podatka koji uvek pisemo u zagradama: ")
+# if ime=="string":   
+#     print("tacan odgovor")
 # else:
-#     b=int(input('unesite broj'))
-#     c=int(input('unesite broj'))
-#     a=b*c
-#     print ('proizvod je ', a)
-      
+#      print("Nažalost nisi pogodila :(")
+
+# a=int(input('unesite stranicu'))
+# b=int(input('unesite stanicu'))
+# if a==b:
+#     print('povrsina kvadrata iznosi',a**2)#ako su dva ista broja npr 5*5 mozemo zapisati kao 5 na kvadrat(5**2)
+# else:
+#     print('povrsina provogaonika iznosi',a*b)
+
+
+# h=str(input("odaberite operaciju:"))
+# if h=="zbir":
+#     a=int(input("unesite neki broj"))
+#     b=int(input("unesite drugi broj"))
+#     print("zbir je;", a+b)
+# elif h=="razlika":
+#     a=int(input("unesite neki broj"))
+#     b=int(input("unesite drugi broj"))
+#     print("razlika je:", a-b)
+# elif h=="proizvod":
+#     a=int(input("unesite neki broj"))
+#     b=int(input("unesite drugi broj"))
+#     print("proizvod je:" , a*b)
+# elif h=="kolicnik":
+#     a=int(input("unesite neki broj"))
+#     b=int(input("unesite drugi broj"))
+#     print("kolicnik je:", a/b)
+# else:
+#     print("kraj")
