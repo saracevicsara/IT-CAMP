@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+}
+.position {
+  position: relative;
+  top: 50px;
+}
+.prvi,
+.drugi,
+.treci,
+.cetvrti,
+.peti,
+.sesti {
+  width: 200px;
+  height: 650px;
+  border-radius: 15px;
+  display: inline-block;
+  z-index: 10;
+  background-color: red;
+  position: absolute;
+  left: 700px;
+  animation-name: anim1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 5s;
+  transform-origin: center 95%;
+}
+.tacka {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 600px;
+  left: 80px;
+}
+.drugi {
+  background-color: orange;
+  animation-name: anim2;
+  z-index: 9;
+}
+.treci {
+  background-color: yellow;
+  animation-name: anim3;
+  z-index: 8;
+}
+.cetvrti {
+  background-color: green;
+  animation-name: anim4;
+  z-index: 7;
+}
+.peti {
+  background-color: darkmagenta;
+  animation-name: anim5;
+  z-index: 6;
+}
+.sesti {
+  background-color: violet;
+  animation-name: anim6;
+  z-index: 5;
+}
+@keyframes anim1 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(60deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim2 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(35deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim3 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim4 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim5 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-40deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes anim6 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-66deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
