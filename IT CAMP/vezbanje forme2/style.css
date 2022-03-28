@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.facebook,
+.twitter {
+  font-size: 30px;
+}
+section p {
+  font-size: 15px;
+  text-align: center;
+}
+section input {
+  font-size: 25px;
+  margin-top: 10px;
+}
+button {
+  font-size: 20px;
+}

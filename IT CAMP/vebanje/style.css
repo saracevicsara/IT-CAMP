@@ -50,3 +50,7 @@ button {
 form {
   margin-top: 15px;
 }
+.message {
+  width: 80%;
+  height: 20vh;
+}
